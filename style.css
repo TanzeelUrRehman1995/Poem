@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "luckiest-guy";
+    src: url(fonts/LuckiestGuy-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Allura-Regular";
+    src: url(fonts/Allura-Regular.ttf);
+}
+
+#container{
+    width: 50%;
+    height: auto;
+    /* background-color: blue; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 8% auto;
+    border: 10px solid transparent;
+    border-image: url(/border.png) 20 stretch;
+}
+#container > h1 {
+    text-align: center;
+    font-family: "luckiest-guy";
+}
+
+#peom-para{
+    text-align: center;
+    font-family: "Allura-Regular";
+    font-size: larger;
+}
+
+#writer{
+    font-family: "luckiest-guy";
+    padding-left: 80%;
+}
