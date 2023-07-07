@@ -16,6 +16,7 @@
     margin: 8% auto;
     border: 10px solid transparent;
     border-image: url(/border.png) 20 stretch;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.6));
 }
 #container > h1 {
     text-align: center;
